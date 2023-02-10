@@ -1,4 +1,8 @@
-# TCP/UDP Proxy Dockerized ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/henkelmax/docker-proxy/Build) ![GitHub issues](https://img.shields.io/github/issues-raw/henkelmax/docker-proxy) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/henkelmax/docker-proxy?include_prereleases) ![](https://img.shields.io/docker/pulls/henkelmax/proxy)
+# Description
+
+This repository is forked to ensure its existence for my bachelors project. See more [here](https://github.com/andreaswachs/bachelors-project)
+
+# TCP/UDP Proxy Dockerized
 
 A simple Docker container that forwards incoming TCP or UDP traffic to a specific IP.
 
