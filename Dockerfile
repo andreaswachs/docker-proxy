@@ -1,4 +1,4 @@
-FROM debian:stable-slim as proxy-builder
+FROM debian:buster-slim as proxy-builder
 
 WORKDIR /proxy/
 
@@ -12,9 +12,7 @@ RUN git checkout 3c0ab60641886c48d223d408dcc81afa50b7a7be
 RUN cd src && sed -i "s/\/usr\/local\/lib/\/usr\/lib\/x86_64-linux-gnu/" Makefile 
 RUN cd src && make
 
-FROM debian:stable-slim
-
-LABEL maintainer="Max Henkel <mh@maxhenkel.de>"
+FROM debian:buster-slim
 
 ENV LOCAL_PORT=0
 ENV REMOTE_PORT=0
