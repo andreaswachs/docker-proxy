@@ -2,6 +2,8 @@
 
 This repository is forked to ensure its existence for my bachelors project. See more [here](https://github.com/andreaswachs/bachelors-project)
 
+Further, the Dockerfile has been fixed enabling it to be be built.
+
 # TCP/UDP Proxy Dockerized
 
 A simple Docker container that forwards incoming TCP or UDP traffic to a specific IP.
