@@ -1,10 +1,12 @@
-FROM debian:buster-slim as proxy-builder
+FROM debian:buster-slim AS builder-base
 
 WORKDIR /proxy/
 
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update -y -q && apt install -y -q g++ make libboost-all-dev dpkg-dev git
+
+FROM builder-base AS proxy-builder 
 
 RUN git clone https://github.com/MengRao/TCP-UDP-Proxy.git .
 RUN git config --global advice.detachedHead false
