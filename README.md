@@ -12,8 +12,9 @@ A simple Docker container that forwards incoming TCP or UDP traffic to a specifi
 
 ## Useful Links
 
-- [Docker Image](https://hub.docker.com/r/henkelmax/proxy)
+- [Docker Image](https://hub.docker.com/r/andreaswachs/forward-proxy)
 - [Proxy](https://github.com/MengRao/TCP-UDP-Proxy)
+- [Forked from](https://github.com/henkelmax/docker-proxy)
 
 ## Environment Variables
 
