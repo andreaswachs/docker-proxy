@@ -29,5 +29,5 @@ A simple Docker container that forwards incoming TCP or UDP traffic to a specifi
 ## Example
 
 ```sh
-docker run -e LOCAL_PORT=10000 -e REMOTE_PORT=10000 -e REMOTE_IP=127.0.0.1 -e PROTOCOL=udp henkelmax/proxy
+docker run -e LOCAL_PORT=10000 -e REMOTE_PORT=10000 -e REMOTE_IP=127.0.0.1 -e PROTOCOL=udp andreaswachs/forward-proxy
 ```
